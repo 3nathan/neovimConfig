@@ -18,7 +18,7 @@ keymap.set("n", "<leader>|", ":vsp<CR>")
 keymap.set("n", "<leader>-", ":sp<CR>")
 
 -- nerdtree keymaps
-keymap.set("n", "<leader>n", ":NERDTreeToggle<CR>")
+keymap.set("n", "<leader>j", ":NERDTreeToggle<CR>")
 
 -- telescope keymaps
 keymap.set('n', '<leader>ff', ":Telescope find_files<CR>")
