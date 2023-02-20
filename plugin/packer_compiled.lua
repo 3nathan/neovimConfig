@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/Users/nathan/.local/share/nvim/site/pack/packer/start/limelight.vim",
     url = "https://github.com/junegunn/limelight.vim"
   },
+  nerdtree = {
+    loaded = true,
+    path = "/Users/nathan/.local/share/nvim/site/pack/packer/start/nerdtree",
+    url = "https://github.com/preservim/nerdtree"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/nathan/.local/share/nvim/site/pack/packer/start/packer.nvim",

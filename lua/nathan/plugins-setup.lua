@@ -47,8 +47,11 @@ return require('packer').startup(function(use)
     -- YouCompleteMe
     use("ycm-core/YouCompleteMe")
 
-    -- ALE
+    -- ale
     use("dense-analysis/ale")
+
+    -- nerd tree
+    use("preservim/nerdtree")
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
