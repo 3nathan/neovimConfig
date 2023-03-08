@@ -22,7 +22,7 @@ opt.smartcase = true
 opt.cursorline = false -- i don't personally like the cursor line
 
 -- appearance
-opt.termguicolors = true
+--opt.termguicolors = true
 opt.background = "dark"
 opt.signcolumn = "yes"
 

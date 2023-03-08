@@ -51,7 +51,7 @@ return require('packer').startup(function(use)
     use("dense-analysis/ale")
 
     -- nerd tree
-    use("preservim/nerdtree")
+    -- use("preservim/nerdtree")
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
