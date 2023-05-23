@@ -38,3 +38,5 @@ opt.splitbelow = true
 
 opt.iskeyword:append("-")
 
+-- treesitter
+vim.cmd('autocmd VimEnter * TSEnable highlight .')

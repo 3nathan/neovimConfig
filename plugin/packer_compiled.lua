@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/Users/nathan/.local/share/nvim/site/pack/packer/start/limelight.vim",
     url = "https://github.com/junegunn/limelight.vim"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/nathan/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/nathan/.local/share/nvim/site/pack/packer/start/packer.nvim",

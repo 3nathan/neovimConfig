@@ -15,7 +15,7 @@ local packer_bootstrap = ensure_packer()
 vim.cmd([[
     augroup packer_user_config
         autocmd!
-        autocmd BufWritePost plugins.lua source <afile> | PackerCompile
+        autocmd BufWritePost plugins-setup.lua source <afile> | PackerCompile
     augroup end
 ]])
 
@@ -49,6 +49,9 @@ return require('packer').startup(function(use)
 
     -- ale
     use("dense-analysis/ale")
+
+    -- treesitter
+    use("nvim-treesitter/nvim-treesitter")
 
     -- nerd tree
     -- use("preservim/nerdtree")
